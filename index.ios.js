@@ -40,6 +40,8 @@ var style = StyleSheet.create({
         color: '#fff'
     }
 });
+
+AppRegistry.registerComponent('Saber', () => Saber);
 /*
 import React, { Component } from 'react';
 import {
