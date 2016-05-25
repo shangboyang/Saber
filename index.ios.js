@@ -15,7 +15,7 @@ var {
     Image
 } = React;
 
-var Saber = React.create({
+var Saber = React.createClass({
     render: function () {
         return (
             <View style={styles.container}>
