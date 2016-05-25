@@ -20,7 +20,8 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  View,
+  Image
 } from 'react-native';
 
 class Saber extends Component {
@@ -49,7 +50,7 @@ var Saber = React.createClass({
     }
 });
 */
-var style = StyleSheet.create({
+var styles = StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: 'center',
