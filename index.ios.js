@@ -15,16 +15,16 @@ var {
     Image
 } = React;
 
-var demo = React.create({
+var Saber = React.create({
     render: function () {
-        return {
+        return (
             <View style={styles.container}>
                 <Text style={styles.welcome}>欢迎来到React Native的世界!</Text>
                 <Image style={{width: 50, height: 50, resizeMode: Image.resizeMode.contain}}
                     source={{uri: 'https://facebook.github.io/react-native/img/header_logo.png'}}>
                 </Image>
             </View>
-        }
+        );
     }
 });
 
