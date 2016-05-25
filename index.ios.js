@@ -33,12 +33,12 @@ var style = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#o5A5D1'
+        backgroundColor: '#o5A5D1',
     },
     welcome: {
         fontSize: 20,
-        color: '#fff'
-    }
+        color: '#fff',
+    },
 });
 
 AppRegistry.registerComponent('Saber', () => Saber);
