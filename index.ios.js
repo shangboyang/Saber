@@ -3,7 +3,44 @@
  * https://github.com/facebook/react-native
  * @flow
  */
+'use strict';
 
+var React = require('react-native');
+
+var {
+    AppRegistry,
+    StyleSheet,
+    Text,
+    View,
+    Image
+} = React;
+
+var demo = React.create({
+    render: function () {
+        return {
+            <View style={styles.container}>
+                <Text style={styles.welcome}>欢迎来到React Native的世界!</Text>
+                <Image style={{width: 50, height: 50, resizeMode: Image.resizeMode.contain}}
+                    source={{uri: 'https://facebook.github.io/react-native/img/header_logo.png'}}>
+                </Image>
+            </View>
+        }
+    }
+});
+
+var style = StyleSheet.create({
+    container: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: '#o5A5D1'
+    },
+    welcome: {
+        fontSize: 20,
+        color: '#fff'
+    }
+});
+/*
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -51,3 +88,4 @@ const styles = StyleSheet.create({
 });
 
 AppRegistry.registerComponent('Saber', () => Saber);
+*/
