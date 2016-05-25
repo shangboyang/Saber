@@ -4,7 +4,7 @@
  * @flow
  */
 'use strict';
-
+/*
 var React = require('react-native');
 
 var {
@@ -14,7 +14,28 @@ var {
     View,
     Image
 } = React;
+*/
+import React, { Component } from 'react';
+import {
+  AppRegistry,
+  StyleSheet,
+  Text,
+  View
+} from 'react-native';
 
+class Saber extends Component {
+    render () {
+        return (
+            <View style={styles.container}>
+                <Text style={styles.welcome}>欢迎来到React Native的世界!</Text>
+                <Image style={{width: 50, height: 50, resizeMode: Image.resizeMode.contain}}
+                    source={{uri: 'https://facebook.github.io/react-native/img/header_logo.png'}}>
+                </Image>
+            </View>
+        );
+    }
+}
+/*
 var Saber = React.createClass({
     render: function () {
         return (
@@ -27,13 +48,13 @@ var Saber = React.createClass({
         );
     }
 });
-
+*/
 var style = StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#o5A5D1',
+        backgroundColor: '#05A5D1',
     },
     welcome: {
         fontSize: 20,
