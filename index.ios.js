@@ -28,7 +28,7 @@ class Saber extends Component {
     render () {
         return (
             <View style={styles.container}>
-                <Text style={styles.welcome}>React-Native I Love U!!!</Text>
+                <Text style={styles.welcome}>Hello~My React-Native!!!</Text>
                 <Image style={{width: 50, height: 50, resizeMode: Image.resizeMode.contain}}
                     source={{uri: 'https://facebook.github.io/react-native/img/header_logo.png'}}>
                 </Image>
